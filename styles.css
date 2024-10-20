@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #002f5e;
+    padding: 10px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #ff6000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search button {
+    padding: 5px;
+    background-color: #ff6000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
